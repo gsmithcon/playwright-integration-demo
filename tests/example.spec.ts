@@ -33,7 +33,7 @@ test("Can search for random string", async ({ page }) => {
 test("big failure", async ({ page }) => {
   test.info().annotations.push({
     type: "jiraKey",
-    description: "UMS-2148",
+    description: "UMS-2150",
   });
   expect(false).toBe(true);
 });
@@ -41,7 +41,7 @@ test("big failure", async ({ page }) => {
 test("total failure", async ({ page }) => {
   test.info().annotations.push({
     type: "jiraKey",
-    description: "UMS-2148",
+    description: "UMS-2151",
   });
   expect(1).toBe(2);
 });
